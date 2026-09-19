@@ -39,6 +39,7 @@ An edge-AI precision irrigation system built around the ESP32-S3 microcontroller
 The decision tree classifier in model_ai_irigasi.h was trained offline using a publicly available Kaggle IoT sensor dataset:
 
 Dataset Source: Raspberry Pi IoT Irrigation Sensor Data (Kaggle)
+"https://www.kaggle.com/datasets/umapreethi/raspberry-pi-iot-irrigation-sensor-data"
 
 Features Used: Air Temperature, Air Humidity, and Soil Moisture.
 
