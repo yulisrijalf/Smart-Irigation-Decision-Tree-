@@ -1,4 +1,3 @@
-// File otomatis di-generate oleh Python untuk ESP32-S3
 #ifndef MODEL_AI_IRIGASI_H
 #define MODEL_AI_IRIGASI_H
 
