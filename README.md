@@ -22,7 +22,8 @@ An edge-AI precision irrigation system built around the ESP32-S3 microcontroller
 * DHT22 (Air Temperature & Air Humidity)
 * Capacitive Soil Moisture Sensor v1.2 (Analog ADC)
 * YF-S401 Water Flow Sensor (Pulse-based)
-* Actuator & Interface:
+
+**Actuator & Interface:**
 * 12V DC Water Pump with Relay Module
 * Nextion / TJC HMI Touchscreen Display
 
