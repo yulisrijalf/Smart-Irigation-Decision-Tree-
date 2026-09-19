@@ -30,7 +30,8 @@ An edge-AI precision irrigation system built around the ESP32-S3 microcontroller
 ### Software & Libraries
 * Arduino IDE (v2.x recommended)
 * ESP32 Board Support Package (v2.0.x or higher)
-* Required Arduino Libraries:
+
+**Required Arduino Libraries:**
 * DHT sensor library by Adafruit
 * Adafruit Unified Sensor
 * WiFi & HTTPClient (Built-in ESP32 core)
