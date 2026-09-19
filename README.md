@@ -33,8 +33,18 @@ An edge-AI precision irrigation system built around the ESP32-S3 microcontroller
 * Adafruit Unified Sensor
 * WiFi & HTTPClient (Built-in ESP32 core)
 
+---
 
+📊 Dataset & Model Training
+The decision tree classifier in model_ai_irigasi.h was trained offline using a publicly available Kaggle IoT sensor dataset:
 
+Dataset Source: Raspberry Pi IoT Irrigation Sensor Data (Kaggle)
+
+Features Used: Air Temperature, Air Humidity, and Soil Moisture.
+
+Target Output: Binary Irrigation Decision (1 = Irrigate / Pump ON, 0 = Do Not Irrigate / Pump OFF).
+
+Transpilation Process: The trained Scikit-Learn decision tree model was transpiled into pure C++ nested if-else logic using a custom Python script, enabling lightweight and zero-dependency execution on the ESP32-S3.
 ---
 
 ## 🚀 Getting Started & Deployment Guide
