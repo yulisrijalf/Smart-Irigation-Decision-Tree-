@@ -18,7 +18,7 @@ An edge-AI precision irrigation system built around the ESP32-S3 microcontroller
 ### Hardware Components
 * Microcontroller: ESP32-S3 Development Board
 
-Sensors:
+**Sensors:**
 * DHT22 (Air Temperature & Air Humidity)
 * Capacitive Soil Moisture Sensor v1.2 (Analog ADC)
 * YF-S401 Water Flow Sensor (Pulse-based)
