@@ -10,7 +10,7 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include "time.h"
-#include "model_ai_irigasi.h" // Import Transpiled AI Decision Tree Model
+#include "model_ai_irigation.h" // Import Transpiled AI Decision Tree Model
 
 // -------------------------------------------------------------
 // WIFI & GOOGLE APPS SCRIPT CONFIGURATION
