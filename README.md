@@ -43,8 +43,8 @@ Dataset Source: Raspberry Pi IoT Irrigation Sensor Data (Kaggle)
 Features Used: Air Temperature, Air Humidity, and Soil Moisture.
 
 Target Output: Binary Irrigation Decision (1 = Irrigate / Pump ON, 0 = Do Not Irrigate / Pump OFF).
-
 Transpilation Process: The trained Scikit-Learn decision tree model was transpiled into pure C++ nested if-else logic using a custom Python script, enabling lightweight and zero-dependency execution on the ESP32-S3.
+
 ---
 
 ## 🚀 Getting Started & Deployment Guide
